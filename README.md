@@ -6,7 +6,7 @@ This is official project in our paper: Beyond Surface: Probing LLaMA Across Scal
 This projects presents an in-depth analysis of Large Language Models (LLMs), focusing on LLaMA, a prominent open-source foundational model in natural language processing. 
 Instead of assessing LLaMA through its generative output, we design multiple-choice tasks to probe its intrinsic understanding in high-order tasks such as reasoning and computation. We examine the model horizontally, comparing different sizes, and vertically, assessing different layers.
 
-We probe the LLaMA models in five high-order tasks:
+We probe the LLaMA models in six high-order tasks:
 
 - **Calculation**
 - **Math problem solving (MPS)**
