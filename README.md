@@ -19,7 +19,9 @@ We unveil several key and uncommon findings based on the designed probing tasks:
 
 -  Horizontally, enlarging model sizes almost could not automatically impart additional knowledge or computational prowess. Instead, it can enhance reasoning abilities, especially in math problem solving, and helps reduce hallucinations, but only beyond certain size thresholds;
     
--  In vertical analysis, the lower layers of LLaMA lack substantial arithmetic and factual knowledge, showcasing logical thinking, multilingual and recognitive abilities, with top layers housing most computational power and real-world knowledge.  These findings provide new observations into LLaMA's capabilities, offering insights into the current state of LLMs.
+-  In vertical analysis, the lower layers of LLaMA lack substantial arithmetic and factual knowledge, showcasing logical thinking, multilingual and recognitive abilities, with top layers housing most computational power and real-world knowledge.
+
+We expect these findings provide new observations into LLaMA's capabilities, offering insights into the current state of LLMs.
 
 
 ## Results
