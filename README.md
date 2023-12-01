@@ -1,4 +1,4 @@
-# LLaMA_Analysis
+# Beyond Surface: Probing LLaMA Across Scales and Layers
 This is official project in our paper: Beyond Surface: Probing LLaMA Across Scales and Layers
 
 ## Overview
@@ -22,6 +22,22 @@ We unveil several key and uncommon findings based on the designed probing tasks:
 -  In vertical analysis, the lower layers of LLaMA lack substantial arithmetic and factual knowledge, showcasing logical thinking, multilingual and recognitive abilities, with top layers housing most computational power and real-world knowledge.
 
 We expect these findings provide new observations into LLaMA's capabilities, offering insights into the current state of LLMs.
+
+
+## Quick Links
+
+- [Results](#results)
+ - [Overall Probing](#overall-probing)
+ - [7B Probing](#7b-probing)
+ - [13B Probing](#13b-probing)
+ - [70B Probing](#70b-probing)
+ - [Calculation Probing](#calculation-probing)
+   - [1-2Bit](#1-2Bit)
+   - [3-4Bit](#3-4Bit)
+   - [5-6Bit](#5-6Bit)
+- [Cross-lingual Probing](#cross-lingual-probing)
+- [Reproduce](#reproduce)
+- [Citation](#citation)
 
 
 ## Results
@@ -80,7 +96,52 @@ We expect these findings provide new observations into LLaMA's capabilities, off
   <img src="figure/xmps-cal.png" alt="Description of image">
 </p>
 
+## Reproduce
 
+### Dependency
+
+```
+pip install requirements.txt
+```
+
+### Math Problem Solving Probing
+
+for each subtask: MPS-REA, MPS-CAL, XMPS-REA and XMPS-CAL, you should use corresponding data for probing.
+
+```
+bash test_math.sh
+```
+
+
+### Factual Knowledge Probing
+
+We use a subset from LAMA as a testbed for our probing task.
+
+```
+bash test_factural.sh
+```
+
+### Truthfulness Probing
+
+We use TrufulQA MC1 and MC3 tasks as a testbed for our probing task.
+
+```
+bash test_tfqa.sh
+```
+
+### Logical Reasoning Probing
+
+We use the Reclor eval set as a testbed for our probing task.
+
+```
+bash test_logical.sh
+```
+
+## Citation
+
+```
+
+```
 
 
 
