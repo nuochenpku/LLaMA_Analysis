@@ -1,5 +1,5 @@
 # Beyond Surface: Probing LLaMA Across Scales and Layers
-This is official project in our paper: Beyond Surface: Probing LLaMA Across Scales and Layers
+This is official project in our paper: [**Beyond Surface: Probing LLaMA Across Scales and Layers**](https://arxiv.org/abs/2312.04333)
 
 ## Overview
 
