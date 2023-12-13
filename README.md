@@ -140,7 +140,12 @@ bash test_logical.sh
 ## Citation
 
 ```
-
+@article{chen2023beyond,
+  title={Beyond Surface: Probing LLaMA Across Scales and Layers},
+  author={Chen, Nuo and Wu, Ning and Liang, Shining and Gong, Ming and Shou, Linjun and Zhang, Dongmei and Li, Jia},
+  journal={arXiv preprint arXiv:2312.04333},
+  year={2023}
+}
 ```
 
 
