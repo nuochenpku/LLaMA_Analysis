@@ -1,5 +1,5 @@
-# Beyond Surface: Probing LLaMA Across Scales and Layers
-This is official project in our paper: [**Beyond Surface: Probing LLaMA Across Scales and Layers**](https://arxiv.org/abs/2312.04333)
+# Is Bigger and Deeper Always Better? Probing LLaMA Across Scales and Layers
+This is official project in our paper: [**Is Bigger and Deeper Always Better? Probing LLaMA Across Scales and Layers**](https://arxiv.org/abs/2312.04333)
 
 ## Overview
 
@@ -141,7 +141,7 @@ bash test_logical.sh
 
 ```
 @article{chen2023beyond,
-  title={Beyond Surface: Probing LLaMA Across Scales and Layers},
+  title={Is Bigger and Deeper Always Better? Probing LLaMA Across Scales and Layers},
   author={Chen, Nuo and Wu, Ning and Liang, Shining and Gong, Ming and Shou, Linjun and Zhang, Dongmei and Li, Jia},
   journal={arXiv preprint arXiv:2312.04333},
   year={2023}
